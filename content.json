@@ -1,198 +1,231 @@
 {
   "site": {
-    "hero_title": {
-      "tr": "Merhaba, ben İsmail Hakkı Öngen.",
-      "en": "Hi, I’m İsmail Hakkı Öngen."
-    },
-    "hero_k": {
-      "tr": "Yazılım Geliştirici & Dijital İçerik Üreticisi.",
-      "en": "Software Developer & Digital Creator."
-    },
-    "hero_d": {
-      "tr": "Web teknolojileri, masaüstü uygulamaları, UI/UX tasarımı ve iş akışı otomasyonları üzerine çalışıyorum.",
-      "en": "Focusing on web technologies, desktop applications, UI/UX design, and workflow automation."
-    },
-    "about_sum": {
-      "tr": "Akdeniz Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisiyim. C# ve ASP.NET Core MVC ile web mimarileri kuruyor, diğer yandan Adobe ekosistemiyle görsel tasarım, video kurgu ve animasyon projeleri üretiyorum.",
-      "en": "I am a 2nd-year Computer Programming student at Akdeniz University. I build web architectures using C# and ASP.NET Core MVC, while creating visual design, video editing, and animation projects with the Adobe ecosystem."
-    },
     "addr": {
-      "tr": "Konyaaltı, Antalya / Türkiye (Akdeniz Üniversitesi Kampüsü)",
-      "en": "Konyaaltı, Antalya / Turkey (Akdeniz University Campus)"
-    },
-    "phone": {
-      "tr": "+90 (5XX) XXX XX XX",
-      "en": "+90 (5XX) XXX XX XX"
+      "en": "Konyaaltı, Antalya / Turkey (Akdeniz University Campus)",
+      "tr": "Konyaaltı, Antalya / Türkiye (Akdeniz Üniversitesi Kampüsü)"
     },
     "email": {
-      "tr": "ismailhakki@ornekmail.com",
-      "en": "ismailhakki@ornekmail.com"
+      "en": "hakki.intuyelikler@gmail.com",
+      "tr": "hakki.intuyelikler@gmail.com"
+    },
+    "phone": {
+      "en": "+90 5317130605",
+      "tr": "+90 5317130605"
+    },
+    "hero_d": {
+      "en": "Focusing on web technologies, desktop applications, UI/UX design, and workflow automation.",
+      "tr": "Web teknolojileri, masaüstü uygulamaları, UI/UX tasarımı ve iş akışı otomasyonları üzerine çalışıyorum."
+    },
+    "hero_k": {
+      "en": "Software Developer & Digital Creator.",
+      "tr": "Yazılım Geliştirici & Dijital İçerik Üreticisi."
+    },
+    "about_sum": {
+      "en": "I am a 2nd-year Computer Programming student at Akdeniz University. I build web architectures using C# and ASP.NET Core MVC, while creating visual design, video editing, and animation projects with the Adobe ecosystem.",
+      "tr": "Akdeniz Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisiyim. C# ve ASP.NET Core MVC ile web mimarileri kuruyor, diğer yandan Adobe ekosistemiyle görsel tasarım, video kurgu ve animasyon projeleri üretiyorum."
+    },
+    "hero_title": {
+      "en": "Hi, I’m İsmail Hakkı Öngen.",
+      "tr": "Merhaba, ben İsmail Hakkı Öngen."
     }
   },
-  "projects": [
+  "posts": [
     {
-      "id": "p0",
-      "image": "img/proje-animasyon.jpg",
-      "featured": true,
-      "tr": {
-        "title": "Kişisel Portfolyo Web Animasyonu (Grafik Animasyon Dersi)",
-        "desc": "Grafik Animasyon dersi kapsamında Adobe Animate kullanılarak hazırlanan, vektörel çizimler ve kare kare (frame-by-frame) geçişlerle zenginleştirilmiş etkileşimli tanıtım animasyonu."
-      },
       "en": {
-        "title": "Personal Portfolio Web Animation (Graphic Animation Course)",
-        "desc": "An interactive promotional animation enriched with vector illustrations and frame-by-frame transitions, created using Adobe Animate for the Graphic Animation course."
+        "body": "Synchronizing scenes shot with multiple cameras on a single timeline doubles your editing speed. In Premiere Pro, after selecting clips and clicking “Create Multi-Camera Source Sequence,” you can automatically sync them via audio waveforms. By switching the Program Monitor to “Multi-Camera” mode, you can switch between camera angles on the fly simply by pressing keys 1, 2, and 3 while playing the footage, just like a live broadcast director.",
+        "cats": "Videography, Animation",
+        "tags": "Adobe, Premiere Pro, video editing, multicam, post-production",
+        "title": "Multicam Editing Techniques in Adobe Premiere Pro"
+      },
+      "id": "b0",
+      "tr": {
+        "body": "Birden fazla kamerayla çekilen sahneleri tek bir zaman çizelgesinde (timeline) senkronize etmek, kurgu hızını ikiye katlar. Premiere Pro’da klipleri seçip “Create Multi-Camera Source Sequence” dedikten sonra ses dalgalarına (Audio) göre otomatik eşleştirme yapabilirsiniz. Program monitörünü “Multi-Camera” moduna aldığınızda, videoyu izlerken sadece klavyedeki 1, 2, 3 tuşlarına basarak canlı yayın yönetmeni gibi kamera açıları arasında anlık geçiş yapabilirsiniz.",
+        "cats": "Videografi, Animasyon",
+        "tags": "Adobe, Premiere Pro, video kurgu, multicam, post-prodüksiyon",
+        "title": "Adobe Premiere Pro’da Multicam (Çoklu Kamera) Kurgu Teknikleri"
       }
     },
     {
-      "id": "p1",
-      "image": "img/proje-n8n.jpg",
-      "featured": false,
-      "tr": {
-        "title": "n8n İş Akışı Otomasyonu ve Video Sunumu (Web Editörlüğü / Multimedya)",
-        "desc": "Tekrarlayan dijital görevleri otomatikleştiren n8n tabanlı sistem mimarisi araştırması ve Adobe Premiere Pro ile kurgulanan teknik video sunumu."
-      },
       "en": {
-        "title": "n8n Workflow Automation and Video Presentation (Web Editing / Multimedia)",
-        "desc": "Research on n8n-based system architecture automating repetitive digital tasks, accompanied by a technical video presentation edited in Adobe Premiere Pro."
+        "body": "Repetitive data transfers in daily software and content workflows cause significant time loss. As an open-source, node-based automation tool, n8n makes it easy to connect different APIs and local AI models. For example, you can build a system in minutes without writing code that automatically saves a message from your website’s contact form to a database while simultaneously triggering a notification in your team management tool (like Basecamp or Telegram).",
+        "cats": "Software, Automation",
+        "tags": "n8n, automation, AI, workflow, productivity",
+        "title": "Workflow Automation with n8n: Eliminating Repetitive Tasks"
+      },
+      "id": "b1",
+      "tr": {
+        "body": "Günlük yazılım ve içerik süreçlerinde sürekli tekrar eden veri aktarımları ciddi zaman kaybettirir. Açık kaynaklı ve düğüm (node) tabanlı bir otomasyon aracı olan n8n, farklı API’leri ve yerel yapay zeka modellerini birbirine bağlamayı çok kolaylaştırıyor. Örneğin; web sitenizdeki iletişim formuna düşen bir mesajı otomatik olarak veritabanına kaydedip, aynı anda ekip yönetim aracınızda (Basecamp veya Telegram) bildirim oluşturacak bir sistemi kod yazmadan dakikalar içinde kurabilirsiniz.",
+        "cats": "Yazılım, Otomasyon",
+        "tags": "n8n, otomasyon, yapay zeka, iş akışı, verimlilik",
+        "title": "n8n ile İş Akışı Otomasyonu: Tekrarlayan İşleri Sıfırlamak"
       }
     },
     {
-      "id": "p2",
-      "image": "img/proje-phd.jpg",
-      "featured": true,
-      "tr": {
-        "title": "PHD Teknoloji: Çok Dilli Sağlık Turizmi Platformu (İYS Dersi)",
-        "desc": "Uluslararası hastalar için Ağız ve Diş Sağlığı alanında WordPress ve Polylang altyapısıyla geliştirilen, Türkçe ve İngilizce yayın yapan kurumsal web sitesi."
-      },
       "en": {
-        "title": "PHD Technology: Multilingual Health Tourism Platform (IYS Course)",
-        "desc": "A bilingual (Turkish/English) corporate website developed with WordPress and Polylang infrastructure in the field of Oral and Dental Health for international patients."
-      }
-    },
-    {
-      "id": "p3",
-      "image": "img/proje-hastane.jpg",
-      "featured": true,
-      "tr": {
-        "title": "Hastane İçi Yönlendirme Projesi (Sistem Mimarisi & Web)",
-        "desc": "Büyük hastanelerde ziyaretçilerin aradıkları poliklinik ve birimlere en kısa yoldan ulaşmasını sağlayan kullanıcı akış (user flow) ve sistem mimarisi tasarımı."
+        "body": "When building a website for international users, structuring the language architecture properly is critical. Using the Polylang plugin on WordPress requires more than just duplicating pages; menus, category structures, and URL slugs (/tr/ and /en/) must be mapped individually for both languages. Additionally, placing a clean language switcher in the top navigation bar where users can spot it immediately directly improves the user experience (UX).",
+        "cats": "Web Development, Content Management Systems",
+        "tags": "WordPress, Polylang, multilingual web, SEO, UI/UX",
+        "title": "Tips for Building a Bilingual (TR/EN) Website with WordPress and Polylang"
       },
-      "en": {
-        "title": "Hospital Indoor Navigation Project (System Architecture & Web)",
-        "desc": "User flow routing and system architecture design enabling visitors in large hospitals to reach clinics and departments via the shortest path."
-      }
-    },
-    {
-      "id": "p4",
-      "image": "img/proje-aspnet.jpg",
-      "featured": false,
+      "id": "b2",
       "tr": {
-        "title": "ASP.NET Core MVC Web Uygulamaları (Web Programlama Dersi)",
-        "desc": "Visual Studio 2022 ortamında C# ve SQL Server kullanılarak geliştirilen, dinamik veritabanı bağlantılı ve katmanlı mimariye sahip web projeleri."
-      },
-      "en": {
-        "title": "ASP.NET Core MVC Web Applications (Web Programming Course)",
-        "desc": "Web projects featuring dynamic database integration and layered architecture, developed using C# and SQL Server in Visual Studio 2022."
+        "body": "Uluslararası kullanıcılara hitap eden bir web sitesi kurarken en kritik adım dil mimarisini doğru kurgulamak. WordPress üzerinde Polylang eklentisi kullanırken sadece sayfaları kopyalamak yetmez; menülerin, kategori yapılarının ve URL uzantılarının (/tr/ ve /en/) her iki dil için ayrı ayrı eşleştirilmesi gerekir. Ayrıca dil değiştirici (language switcher) butonunu üst menüde kullanıcının ilk bakışta görebileceği sade bir bayrak veya kısaltma olarak konumlandırmak kullanıcı deneyimini (UX) doğrudan iyileştirir.",
+        "cats": "Web Geliştirme, İçerik Yönetim Sistemleri",
+        "tags": "WordPress, Polylang, çok dilli web, SEO, UI/UX",
+        "title": "WordPress ve Polylang ile Çift Dilli (TR/EN) Site Kurulumunda Püf Noktalar"
       }
     }
   ],
   "gallery": [
     {
+      "en": {
+        "cap": "A stadium in Antalya with its athletics track and stands, part of a life closely tied to sports."
+      },
       "id": "g0",
-      "image": "uploads/1795010668010-sp1.jpg",
       "tr": {
-        "cap": "Akdeniz Üniversitesi kampüsünde proje geliştirme ve kodlama seansı."
+        "cap": "Antalya’da bir stadyum: atletizm pisti ve tribünler. Sporla iç içe bir hayatın parçası."
       },
-      "en": {
-        "cap": "Project development and coding session at Akdeniz University campus."
-      }
+      "image": "https://amsvjxwyftndwifwvgkm.supabase.co/storage/v1/object/public/media/1795622888217-img-e2211.jpg"
     },
     {
+      "en": {
+        "cap": "At a concert with my friends, sharing the energy of the music and the crowd."
+      },
       "id": "g1",
-      "image": "uploads/1795010803402-gemini-generated-image-q7r9cxq7r9cxq7r9.jpg",
       "tr": {
-        "cap": "Antrenman rutini; fiziksel disiplin zihinsel odaklanmayı doğrudan besliyor."
+        "cap": "Arkadaşlarımla bir konserde, müzik ve kalabalığın enerjisi."
       },
-      "en": {
-        "cap": "Training routine; physical discipline directly fuels mental focus."
-      }
+      "image": "https://amsvjxwyftndwifwvgkm.supabase.co/storage/v1/object/public/media/1795622907249-img-e2219.jpg"
     },
     {
+      "en": {
+        "cap": "A fairytale castle and fountains lit up at night in Antalya."
+      },
       "id": "g2",
-      "image": "img/galeri-3.jpg",
       "tr": {
-        "cap": "Yazılım, kurgu ve tasarım süreçlerini yürüttüğüm çalışma istasyonum."
+        "cap": "Antalya’da gece ışıklarıyla aydınlanan masalsı kale ve fıskiyeler."
       },
-      "en": {
-        "cap": "My workstation where I run software development, editing, and design workflows."
-      }
+      "image": "https://amsvjxwyftndwifwvgkm.supabase.co/storage/v1/object/public/media/1795622930183-img-e2217.jpg"
     },
     {
-      "id": "g3",
-      "image": "img/galeri-4.jpg",
-      "tr": {
-        "cap": "Yoğun vize ve proje temposundan fırsat buldukça Antalya’da dinlenme molası."
-      },
       "en": {
-        "cap": "Taking a break in Antalya amidst a busy midterm and project schedule."
-      }
+        "cap": "A wax figure of Mustafa Kemal Atatürk at a wax museum, a close look at the history of the War of Independence."
+      },
+      "id": "gmwwcbpfb",
+      "tr": {
+        "cap": "Balmumu müzesinde Mustafa Kemal Atatürk heykeli. Kurtuluş Savaşı tarihine yakından bir bakış."
+      },
+      "image": "img/galeri-ataturk.jpg"
     },
     {
-      "id": "g4",
-      "image": "img/galeri-5.jpg",
-      "tr": {
-        "cap": "Boş zamanlarda beat ve vokal demoları üzerinde çalıştığım kayıt anlarından."
-      },
       "en": {
-        "cap": "Recording moments working on beats and vocal demos in my spare time."
-      }
+        "cap": "The historic Clock Tower, a symbol of Kaleiçi, lit up at night."
+      },
+      "id": "gmwwcbpfc",
+      "tr": {
+        "cap": "Kaleiçi’nin simgesi tarihi Saat Kulesi, gece ışıklarıyla."
+      },
+      "image": "img/galeri-saat-kulesi.jpg"
+    },
+    {
+      "en": {
+        "cap": "Sunset view of Konyaaltı Beach and the Beydağları mountains from the cliffs."
+      },
+      "id": "gmwwcbpfd",
+      "tr": {
+        "cap": "Falez’den Konyaaltı sahili ve Beydağları’na gün batımı manzarası."
+      },
+      "image": "img/galeri-konyaalti.jpg"
+    },
+    {
+      "en": {
+        "cap": "A modern library building in Antalya lit with LED lights at night."
+      },
+      "id": "gmwwcbpfe",
+      "tr": {
+        "cap": "Antalya’da gece LED ışıklarıyla aydınlanan modern kütüphane binası."
+      },
+      "image": "img/galeri-kutuphane.jpg"
     }
   ],
-  "posts": [
+  "projects": [
     {
-      "id": "b0",
-      "tr": {
-        "title": "Adobe Premiere Pro’da Multicam (Çoklu Kamera) Kurgu Teknikleri",
-        "body": "Birden fazla kamerayla çekilen sahneleri tek bir zaman çizelgesinde (timeline) senkronize etmek, kurgu hızını ikiye katlar. Premiere Pro’da klipleri seçip “Create Multi-Camera Source Sequence” dedikten sonra ses dalgalarına (Audio) göre otomatik eşleştirme yapabilirsiniz. Program monitörünü “Multi-Camera” moduna aldığınızda, videoyu izlerken sadece klavyedeki 1, 2, 3 tuşlarına basarak canlı yayın yönetmeni gibi kamera açıları arasında anlık geçiş yapabilirsiniz.",
-        "cats": "Videografi",
-        "tags": "Adobe, Premiere Pro, video kurgu, multicam, post-prodüksiyon"
-      },
       "en": {
-        "title": "Multicam Editing Techniques in Adobe Premiere Pro",
-        "body": "Synchronizing scenes shot with multiple cameras on a single timeline doubles your editing speed. In Premiere Pro, after selecting clips and clicking “Create Multi-Camera Source Sequence,” you can automatically sync them via audio waveforms. By switching the Program Monitor to “Multi-Camera” mode, you can switch between camera angles on the fly simply by pressing keys 1, 2, and 3 while playing the footage, just like a live broadcast director.",
-        "cats": "Videography",
-        "tags": "Adobe, Premiere Pro, video editing, multicam, post-production"
-      }
+        "desc": "User flow routing and system architecture design enabling visitors in large hospitals to reach clinics and departments via the shortest path.",
+        "title": "Hospital Indoor Navigation Project (System Architecture & Web)"
+      },
+      "id": "p3",
+      "tr": {
+        "desc": "Büyük hastanelerde ziyaretçilerin aradıkları poliklinik ve birimlere en kısa yoldan ulaşmasını sağlayan kullanıcı akış (user flow) ve sistem mimarisi tasarımı.",
+        "title": "Hastane İçi Yönlendirme Projesi (Sistem Mimarisi & Web)"
+      },
+      "image": "img/proje-hastane.jpg",
+      "featured": true
     },
     {
-      "id": "b1",
-      "tr": {
-        "title": "n8n ile İş Akışı Otomasyonu: Tekrarlayan İşleri Sıfırlamak",
-        "body": "Günlük yazılım ve içerik süreçlerinde sürekli tekrar eden veri aktarımları ciddi zaman kaybettirir. Açık kaynaklı ve düğüm (node) tabanlı bir otomasyon aracı olan n8n, farklı API’leri ve yerel yapay zeka modellerini birbirine bağlamayı çok kolaylaştırıyor. Örneğin; web sitenizdeki iletişim formuna düşen bir mesajı otomatik olarak veritabanına kaydedip, aynı anda ekip yönetim aracınızda (Basecamp veya Telegram) bildirim oluşturacak bir sistemi kod yazmadan dakikalar içinde kurabilirsiniz.",
-        "cats": "Otomasyon",
-        "tags": "n8n, otomasyon, yapay zeka, iş akışı, verimlilik"
-      },
       "en": {
-        "title": "Workflow Automation with n8n: Eliminating Repetitive Tasks",
-        "body": "Repetitive data transfers in daily software and content workflows cause significant time loss. As an open-source, node-based automation tool, n8n makes it easy to connect different APIs and local AI models. For example, you can build a system in minutes without writing code that automatically saves a message from your website’s contact form to a database while simultaneously triggering a notification in your team management tool (like Basecamp or Telegram).",
-        "cats": "Automation",
-        "tags": "n8n, automation, AI, workflow, productivity"
-      }
+        "desc": "A multilingual corporate website designed for hair transplant clinics, featuring an online hair analysis form, treatment pages, a 12-month progress timeline and a quick WhatsApp booking flow.",
+        "title": "Hair Transplant Clinic Website"
+      },
+      "id": "p8",
+      "tr": {
+        "desc": "Saç ekim merkezleri için tasarlanan çok dilli kurumsal web sitesi. Online saç analizi formu, tedavi sayfaları, 12 aylık gelişim süreci ve WhatsApp üzerinden hızlı randevu akışı içerir.",
+        "title": "Saç Ekim Kliniği Web Sitesi"
+      },
+      "image": "img/proje-sac-ekim.jpg",
+      "featured": true
     },
     {
-      "id": "b2",
-      "tr": {
-        "title": "WordPress ve Polylang ile Çift Dilli (TR/EN) Site Kurulumunda Püf Noktalar",
-        "body": "Uluslararası kullanıcılara hitap eden bir web sitesi kurarken en kritik adım dil mimarisini doğru kurgulamak. WordPress üzerinde Polylang eklentisi kullanırken sadece sayfaları kopyalamak yetmez; menülerin, kategori yapılarının ve URL uzantılarının (/tr/ ve /en/) her iki dil için ayrı ayrı eşleştirilmesi gerekir. Ayrıca dil değiştirici (language switcher) butonunu üst menüde kullanıcının ilk bakışta görebileceği sade bir bayrak veya kısaltma olarak konumlandırmak kullanıcı deneyimini (UX) doğrudan iyileştirir.",
-        "cats": "Web Geliştirme",
-        "tags": "WordPress, Polylang, çok dilli web, SEO, UI/UX"
-      },
       "en": {
-        "title": "Tips for Building a Bilingual (TR/EN) Website with WordPress and Polylang",
-        "body": "When building a website for international users, structuring the language architecture properly is critical. Using the Polylang plugin on WordPress requires more than just duplicating pages; menus, category structures, and URL slugs (/tr/ and /en/) must be mapped individually for both languages. Additionally, placing a clean language switcher in the top navigation bar where users can spot it immediately directly improves the user experience (UX).",
-        "cats": "Web Development",
-        "tags": "WordPress, Polylang, multilingual web, SEO, UI/UX"
-      }
+        "desc": "An agency concept producing short vertical videos (Reels, Shorts, TikTok) and ad campaigns for brands. The website presents scripting, shooting, editing, content calendar and monthly performance reporting.",
+        "title": "Viral Video and Social Media Ad Agency"
+      },
+      "id": "p9",
+      "tr": {
+        "desc": "Markalar için kısa dikey video (Reels, Shorts, TikTok) ve reklam kampanyaları üreten ajans konsepti. Senaryo, çekim, kurgu, yayın takvimi ve aylık performans raporu süreçlerini tanıtan web sitesi.",
+        "title": "Viral Video ve Sosyal Medya Reklam Ajansı"
+      },
+      "image": "img/proje-viral-video.jpg",
+      "featured": true
+    },
+    {
+      "en": {
+        "desc": "A UI design study modeled on Tesla's website. I rebuilt the hero section, offer cards, charging map and energy products sections with my own layout, practicing structure and flow between image-heavy sections. This is a learning exercise with no official affiliation with Tesla.",
+        "title": "Web UI Study"
+      },
+      "id": "p7",
+      "tr": {
+        "desc": "Tesla'nın web sitesini örnek alarak hazırladığım bir arayüz tasarım çalışması. Hero bölümü, kampanya kartları, şarj istasyonu haritası ve enerji ürünleri bölümlerini kendi yerleşimimle yeniden kurdum. Görsel ağırlıklı bölümler arasında düzen ve geçişleri çalıştım. Bu bir öğrenme çalışmasıdır, Tesla ile resmi bir bağlantısı yoktur.",
+        "title": "Web Arayüz Çalışması"
+      },
+      "image": "https://amsvjxwyftndwifwvgkm.supabase.co/storage/v1/object/public/media/1795106381707-proje-tesla.jpg",
+      "featured": false
+    },
+    {
+      "en": {
+        "desc": "Fan art of Obito from the Naruto series. I drew the sketch in pencil and colored it digitally. The shattering mask pieces represent the character confronting his past. A study in texture, shading and color balance.",
+        "title": "Digital Illustration"
+      },
+      "id": "p5",
+      "tr": {
+        "desc": "Naruto serisindeki Obito karakterinin hayran çizimi. Karakalem eskizi dijital ortamda renklendirdim. Kırılan maske parçalarıyla karakterin geçmişiyle yüzleşmesini anlatmak istedim. Doku, gölgelendirme ve renk dengesi üzerine bir çalışma.",
+        "title": "Dijital İllüstrasyon"
+      },
+      "image": "https://amsvjxwyftndwifwvgkm.supabase.co/storage/v1/object/public/media/1795106366093-gorsel-2026-11-19-193926059.jpg",
+      "featured": false
+    },
+    {
+      "en": {
+        "desc": "A promotional poster designed for a smartphone. I built a clean composition and used light and reflection to bring the product forward. Typographic hierarchy and readability were the priority, with a palette chosen to match the product's premium feel.",
+        "title": "Product Poster"
+      },
+      "id": "p6",
+      "tr": {
+        "desc": "Bir akıllı telefon için hazırladığım tanıtım afişi. Sade bir kompozisyon kurup telefonu ışık ve yansımayla öne çıkardım. Tipografi hiyerarşisini ve okunabilirliği ön planda tuttum. Renk paletini ürünün premium algısına uygun seçtim.",
+        "title": "Ürün Tanıtım Afişi"
+      },
+      "image": "https://amsvjxwyftndwifwvgkm.supabase.co/storage/v1/object/public/media/1795106375719-proje-iphone.jpg",
+      "featured": false
     }
   ]
 }
